@@ -243,7 +243,7 @@ const About = () => {
     <section id="About" className="pt-16">
       <div className="md:grid md:grid-cols-2 gap-6 items-center xl:gap-16">
         <Image
-          src={"/Images/8.svg"}
+          src={"/images/8.svg"}
           alt="PC SETUP"
           width={1000}
           height={1000}
