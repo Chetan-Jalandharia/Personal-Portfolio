@@ -9,8 +9,8 @@ const ProjectData = [
     title: "Next.js Portfolio Website",
     description: "portfolio wesite build using NEXT.JS and tailwind CSS",
     image: "/images/1.svg",
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/Chetan-Jalandharia/Personal-Portfolio",
+    previewUrl: "https://chetan-jalandharia.vercel.app/",
   },
   {
     id: 2,
