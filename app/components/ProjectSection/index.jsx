@@ -57,7 +57,7 @@ const ProjectData = [
   },
 ];
 
-const index = () => {
+const ProjectSection = () => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
   return (
@@ -90,4 +90,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default ProjectSection;

@@ -17,7 +17,7 @@ const Header = () => {
       >
         <h1 className="text-white mb-4 text-4xl sm:text-4xl lg:text-6xl font-bold ">
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
-            Hello, I'm{" "}
+            Hello, I&apos;m{" "}
           </span>
           <br />
           <TypeAnimation

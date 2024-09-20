@@ -6,7 +6,7 @@ import React, { useState } from "react";
 import GithubIcon from "../../../public/icons/icons8-github-50.svg";
 import LinkedinIcon from "../../../public/icons/icons8-linkedin-50.svg";
 
-const index = () => {
+const ContactSection = () => {
   const [emailSubmitted, setemailSubmitted] = useState(false);
 
   const handleSubmit = async (e) => {
@@ -38,14 +38,14 @@ const index = () => {
   };
 
   return (
-    <section id="contact" className="grid md:grid-cols-2 my-10 md:my-12 py-24 gap-4 relative">
+    <section id="Section" className="grid md:grid-cols-2 my-10 md:my-12 py-24 gap-4 relative">
       <div className="bg-[radial-gradient(ellipse_at_center,var(--tw-gradient-stops))] from-purple-900 to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute top-3/4 -left-4 transform -translate-x-1/2 -translate-1/2"></div>
 
       <div>
-        <h2 className="text-xl font-bold text-white my-2">Let's Connect</h2>
+        <h2 className="text-xl font-bold text-white my-2">Let&apos;s Connect</h2>
         <p className="text-[#ADB7BE] mb-4 max-w-md">
           I am currently looking for new oppertunities, my inbox is always open.
-          Weather you have a question or just want to say hi, I'll try my best
+          Weather you have a question or just want to say hi, I&apos;ll try my best
           to get back to you!
         </p>
         <div className="socials flex flex-row gap-2 ">
@@ -125,4 +125,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default ContactSection;
