@@ -11,7 +11,7 @@ import Image from "next/image";
 const navLinks = [
   {
     title: "About",
-    path: "#about",
+    path: "#About",
   },
   {
     title: "Projects",
@@ -46,7 +46,7 @@ const Navbar = () => {
             </button>
           )}
         </div>
-        <div className="menu hidden md:block md:w-auto me-28" id="navbar">
+        <div className="menu hidden md:block md:w-auto lg:me-20" id="navbar">
           <ul className="flex p-4 md:p-0 md:flex-row md:space-x-12">
             {navLinks.map((val, index) => (
               <li key={index}>
