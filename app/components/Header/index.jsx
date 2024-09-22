@@ -22,7 +22,7 @@ const Header = () => {
           <br />
           <TypeAnimation
             sequence={[
-              "ER. Chetan Jalandharia",
+              "Chetan Jalandharia",
               1300,
               "Full Stack Developer",
               1000,
