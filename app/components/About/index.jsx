@@ -252,7 +252,7 @@ const About = () => {
           initial={{ opacity: 0, scale: 0.7, x: 100 }}
           animate={{ opacity: 1, scale: 1, x: 0 }}
           transition={{ duration: 0.5 }}
-          className="mt-4 md:mt-0 text-left flex flex-col h-full"
+          className="mt-4 md:mt-0 text-left flex flex-col h-full text-white"
         >
           <h2 className="text-4xl font-bold mb-4 text-center md:text-left">
             About Me

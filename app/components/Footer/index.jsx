@@ -11,7 +11,7 @@ const Footer = () => {
           href="/"
           className="text-2xl md:text-5xl text-white font-semibold"
         >
-          <Image src={"/images/CJ.png"} alt="CJ" width={55} height={40} />
+          <Image src={"/icons/CJ.png"} alt="CJ" width={55} height={40} />
         </Link>
 
         <p className="text-slate-700">All rights reserved.</p>
